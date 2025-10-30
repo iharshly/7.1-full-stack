@@ -1,0 +1,21 @@
+product-crud/
+│
+├── models/
+│   └── productModel.js
+│
+├── controllers/
+│   └── productController.js
+│
+├── routes/
+│   └── productRoutes.js
+│
+├── app.js
+└── package.json
+
+mkdir product-crud
+cd product-crud
+npm init -y
+npm install express mongoose nodemon
+"scripts": {
+  "start": "nodemon app.js"
+}
